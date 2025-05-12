@@ -1,0 +1,35 @@
+.ContactItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 1px red, 0px 4px 4px white, 1px 4px 6px red;
+    margin-bottom: 16px;
+    width: 240px;
+    transition: all 0.3s ease-in-out;
+}
+
+.ContactItem:hover{
+    scale: 1.05;;
+    box-shadow: 0px 1px 1px cyan, 0px 4px 4px cyan, 1px 4px 6px cyan;
+}
+
+.DeleteButton{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: inherit;
+    border: 2px solid inherit;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.DeleteButton:hover{
+    transform: scale(1.07);
+    color: crimson;
+    border: 2px solid crimson;
+}

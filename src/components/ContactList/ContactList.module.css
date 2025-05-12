@@ -1,0 +1,12 @@
+.ContactList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 20px;
+    padding: 16px;
+    padding-top: 32px;
+    border: none;
+    border-top: 3px solid;
+    width:fit-content;
+}

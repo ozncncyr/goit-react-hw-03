@@ -1,0 +1,27 @@
+.SearchBoxContainer{
+    margin: 20px 16px 20px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.SearchBoxLabel{
+    color: gold;
+    font-weight: 600;
+}
+
+.SearchBox{
+    width: 220px;
+    height: 24px;
+    border: none;
+    box-shadow: 0px 1px 1px red, 0px 4px 4px white, 1px 4px 6px red;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.SearchBox:focus{
+    outline: none;
+    box-shadow: 0px 1px 1px cyan, 0px 4px 4px cyan, 1px 4px 6px cyan;
+}

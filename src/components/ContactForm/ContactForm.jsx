@@ -20,6 +20,9 @@ const ContactForm = ({ onSubmit }) => {
     number: Yup.string()
       .matches(/^\d{3}-\d{2}-\d{2}$/, "Number must be in format XXX-XX-XX")
       .required("Required"),
+    password: Yup.string()
+      .matches(/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/)
+      .required("Required"),
   });
 
   const handleSubmit = (values, evt) => {
